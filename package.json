@@ -1,0 +1,31 @@
+{
+    "name": "telegram-bot-voicepicar",
+    "version": "1.0.0",
+    "description": "Telegram bot for controlling a RaspberryPi car",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/VoicePiCar/TelegramBot"
+    },
+    "bugs": {
+        "url": "https://github.com/VoicePiCar/TelegramBot",
+        "email": "maasencioh@gmail.com"
+    },
+    "keywords": [
+        "telegram",
+        "bot",
+        "raspberry",
+        "pi"
+    ],
+    "engines": {
+        "node": ">4.0.0"
+    },
+    "author": "Miguel Asencio <maasencioh@gmail.com> (https://github.com/maasencioh)",
+    "license": "MIT",
+    "dependencies": {
+        "node-telegram-bot-api": "^0.21.1"
+    }
+}
